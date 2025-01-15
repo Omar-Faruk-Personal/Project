@@ -37,7 +37,7 @@ span{
     border-radius: 10px;
     background: tomato;
     position: absolute;
-    left: 290px;
+    left: 23%;
     opacity: 1;
     transition: all linear .5s;
     animation: hover .3s infinite forwards;
@@ -45,25 +45,25 @@ span{
 
 nav a:nth-child(2):hover~span{
     width: 125px;
-    left: 390px;
+    left:  29%;
 }
 nav a:nth-child(3):hover~span{
     width: 120px;
-    left: 520px;
+    left: 38%;
 }
 nav a:nth-child(4):hover~span{
     width: 110px;
-    left: 650px;
+    left: 46%;
 }
 nav a:nth-child(5):hover~span{
     width: 110px;
-    left: 775px;
+    left: 54.5%;
 }
 nav a:nth-child(6):hover~span{
     width: 115px;
-    left: 900px;
+    left: 62.5%;
 }
 nav a:nth-child(7):hover~span{
-    width: 90px;
-    left: 1030px;
+    width: 90px;;
+    left: 71.5%;
 }
