@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navber</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <nav class="navber">
+                <div class="logo">Logo</div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Gelary</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">contract Us</a></li>
+                </ul>
+                <img src="./File/manubar png.png" class="manu-btn">
+            </nav>
+
+            <header class="main-body">
+            </header>
+        </div>
+    </div>
+
+<script>
+    const manuBtn = document.querySelector('.manu-btn')
+    const navlinks = document.querySelector( '.nav-links')
+    manuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-manu')
+    })
+</script>
+
+</body>
+</html>
