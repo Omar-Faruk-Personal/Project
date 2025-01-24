@@ -22,6 +22,7 @@ body{
 .container header{
     background: tomato;
     grid-column: 1/-1;
+
 }
 .section1{
     background: aqua;

@@ -5,7 +5,6 @@
 }
 body{
     color: aliceblue;
-
 }
 a{
     text-decoration: none;
@@ -44,7 +43,7 @@ ul{
 }
 .manu-btn{
     position: absolute;
-    top: 30px;
+    top: 20px;
     right:30px;
     width: 40px;
     cursor: pointer;
@@ -64,7 +63,7 @@ ul{
         padding: 0;
     }
     .logo{
-        position: absolute;
+        /* position: absolute; */
         top: 30px;
         left:30px;
     }
