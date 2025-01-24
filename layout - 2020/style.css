@@ -15,6 +15,15 @@ body{
     margin: 10px;
 }
 
+.my-btn{
+    margin: 50px auto;
+    padding: 10px 30px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    border: 3px solid red;
+    border-radius: 30px;
+}
+
  /* ======== start card ========= */
 .card{
     width: fit-content;
@@ -107,9 +116,20 @@ body{
     background: aqua;
     grid-column:3/4;
     grid-row: 2/-1;
+    padding: 10% auto;
 }
-.grid-container .member-box{
-
+ .grid-container .member-box h1{
+    text-transform: uppercase;
+    margin: 15% 0 0 0 ;
+    color: green;
+}
+.grid-container .member-box .underline{
+    margin: 10px auto;
+}
+.grid-container .member-box .card-box{
+    height: 123vh;
+    margin: 15% 25% ;
+    overflow: hidden;
 }
 /* ========= end member-box ======== */
 
@@ -161,7 +181,16 @@ body{
  .grid-container .our-project{
     grid-column: 1/-1;
     background-color: rgb(171, 115, 41);
-
+}
+.grid-container .our-project h1{
+    text-transform: uppercase;
+    margin: 3% 0 0 0;
+    color: red;
+}
+.grid-container .our-project .underline{
+    width: 40%;
+    margin: 10px auto;
+    background-color: green;
 }
 .grid-container .our-project .card-box{
     height: 80vh;
@@ -172,14 +201,6 @@ body{
     overflow: hidden;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-.grid-container .our-project button{
-    margin: 50px auto;
-    padding: 10px 30px;
-    font-size: 1rem;
-    text-transform: capitalize;
-    border: 3px solid red;
-    border-radius: 30px;
 }
  /* ========= end .our-project-box ======== */
 
@@ -199,16 +220,16 @@ body{
         color: #fff;
         margin: 15px auto;
         display: grid;
-        grid-template-columns:;
-        grid-template-rows:60px 100px 300px 60px;
+        grid-template-rows:repeat(6, fit-content);
         grid-gap:10px;
         border: 1px solid rgba(0, 0, 0, .5);
     }
-    .grid-container .ceo-box{
+    .grid-container .header-box{
         grid-column: 1/-1;
     }
     .grid-container .ceo-box{
         grid-column: 1/-1;
+        display: block;
     }
     .grid-container .member-box{
         grid-column: 1/-1;
@@ -217,6 +238,12 @@ body{
         grid-column: 1/-1;
     }
     .grid-container .our-vision{
+        grid-column: 1/-1;
+    }
+    .grid-container .our-project{
+        grid-column: 1/-1;
+    }
+    .grid-container .footer-box{
         grid-column: 1/-1;
     }
 
