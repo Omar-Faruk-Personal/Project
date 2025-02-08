@@ -1,0 +1,39 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    /* background-image: linear-gradient(green,red);
+    background-repeat: no-repeat; */
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.br{
+    border: 2px solid red;
+}
+.brw{
+    border: 2px solid white;
+}
+.brb{
+    border: 2px solid black;
+}
+section{
+    display: block;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(201, 31, 8);
+    border-radius: 8px;
+
+}
+.img-box{
+    width: 350px;
+    height: 350px;
+    border: 2px solid rgba(5, 5, 5,.5));
+}

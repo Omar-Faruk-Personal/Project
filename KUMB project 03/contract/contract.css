@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+   
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.br{
+    border: 2px solid red;
+}
+.box-200{
+    width: 200px;
+    height: 200px;
+}
+.box-300{
+    width: 300px;
+    height: 300px;
+}
+.hdr-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    border-bottom: 2px solid rgba(109, 107, 107,.5);
+}
+
+.contract-header{
+    width: 90%;
+    height: fit-content;
+    color: rgb(25, 34, 138);
+    border-bottom : 5px solid rgba(109, 107, 107,.5);
+    border-top : 5px solid rgba(109, 107, 107,.5);
+    border-radius: 100px;
+    text-align: center;
+}
+.map-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-box{
+    /* border: 2px solid black; */
+    width: 630px;
+    height: 500px;
+    padding: 10px;
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contract-icons img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+.contract-icons img:hover{
+    background-color: rgba(17, 17, 183,.8);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.form-items{
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid rgba(109, 107, 107,.5) ;
+    border-radius: 10px;
+}
+.input-tittle{
+    padding: 5px;
+}
+.input-name{
+    border: 1px solid red;
+    padding: 5px 10px;
+}
+.input-message{
+    border: 1px solid red;
+    padding: 5px 10px;
+}
+
+.input-message{
+    height: 100px;
+}
+.sent-message{
+    width: fit-content;
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #0d6efd;
+    color: #fff;
+}
+.sent-message:hover{
+    background-color: blueviolet;
+    color: #fff;
+    border: 2px solid white;
+}
+
+.footer-row{
+    background-color: rgba(109, 107, 107,.5);
+}
+.block1{
+    display: flex;
+}
+.block1 img{
+    width: 100px;
+    height: 100px;
+}
+.block2{
+    text-decoration: none;
+    border-left: 2px solid red;
+    
+}
+.li-hdr{
+    font-size: 18px;
+}
+.block2 menu ul{
+    list-style: none;
+    margin:15px;
+}
+.block2 menu ul li a{
+    padding: 5px;
+    color: red;
+}
+.block2 menu ul li a:hover{
+    color: rgb(19, 19, 19);
+}
+
